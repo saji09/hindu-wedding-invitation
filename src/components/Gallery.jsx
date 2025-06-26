@@ -10,7 +10,7 @@ const Gallery = () => {
       title: "நிச்சயதார்த்தம்", 
       subTitle: "Engagement",
       img: "/assets/images/engagement.jpg",
-      date: "ஆகஸ்ட் 12, 2023",
+      date: "டிசம்பர் 1, 2025",
       description: "எங்கள் அன்பான நிச்சயதார்த்த தருணம்"
     },
     { 
@@ -18,7 +18,7 @@ const Gallery = () => {
       title: "வரவேற்பு அட்டை", 
       subTitle: "Invitation",
       img: "/assets/images/invitation.jpg",
-      date: "டிசம்பர் 1, 2023",
+      date: "டிசம்பர் 25, 2025",
       description: "பாரம்பரிய தமிழ் வடிவமைப்பில் எங்கள் திருமண அட்டை"
     }
   ]
