@@ -1,0 +1,244 @@
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-secondary {
+  color: var(--secondary-color);
+}
+
+.text-accent {
+  color: var(--accent-color);
+}
+
+.text-light {
+  color: var(--text-light);
+}
+
+.bg-primary {
+  background-color: var(--primary-color);
+}
+
+.bg-secondary {
+  background-color: var(--secondary-color);
+}
+
+.bg-accent {
+  background-color: var(--accent-color);
+}
+
+.bg-light {
+  background-color: var(--light-color);
+}
+
+.bg-dark {
+  background-color: var(--dark-color);
+}
+
+.btn-traditional {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-traditional:hover {
+  background-color: var(--secondary-color);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.section-padding {
+  padding: 80px 0;
+}
+
+.banana-leaf-border {
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.banana-leaf-border::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 150px;
+  height: 20px;
+  background-image: url('../assets/svgs/banana-leaf-pattern.svg');
+  background-repeat: repeat-x;
+  background-size: contain;
+}
+
+/* .hero-section {
+  background: url('../assets/images/hero-bg.jpg') no-repeat center center;
+  background-size: cover;
+  color: var(--text-light);
+  position: relative;
+} */
+
+.hero-section {
+  background: linear-gradient(
+      rgba(248, 241, 229, 0.7), 
+      rgba(255, 255, 255, 0.33)
+    ),
+    url('../assets/images/hero-bg.jpg') no-repeat center center !important;
+  background-size: cover;
+  color: var(--text-light);
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(42, 33, 24, 0.3);
+  z-index: 0;
+}
+
+.hero-section > * {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-section h1, 
+.hero-section h2,
+.hero-section p {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.couple-card {
+  transition: transform 0.3s ease;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.couple-card:hover {
+  transform: translateY(-10px);
+}
+
+.couple-card .card-img {
+  transition: transform 0.5s ease;
+}
+
+.couple-card:hover .card-img {
+  transform: scale(1.05);
+}
+
+.event-card {
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+.gallery-item {
+  transition: all 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: translateY(-5px);
+}
+
+.gallery-overlay {
+  transition: all 0.3s ease;
+}
+
+.gallery-item:hover .gallery-overlay {
+  opacity: 1;
+}
+
+.traditional-gallery-card {
+  transition: all 0.3s ease;
+}
+
+.gallery-image-container {
+  height: 350px;
+  overflow: hidden;
+}
+
+.gallery-content {
+  height: 350px;
+  overflow-y: auto;
+}
+
+.traditional-gallery-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(142, 35, 35, 0.15) !important;
+  border-color: rgba(183, 135, 39, 0.4) !important;
+}
+
+.traditional-gallery-card:hover .gallery-image {
+  transform: scale(1.05);
+}
+
+@media (max-width: 767.98px) {
+  .gallery-image-container,
+  .gallery-content {
+    height: auto;
+  }
+  
+  .gallery-image-container {
+    min-height: 250px;
+  }
+}
+
+.form-control, .form-select {
+  border: 1px solid var(--primary-color);
+  padding: 10px 15px;
+}
+
+.form-control:focus, .form-select:focus {
+  border-color: var(--secondary-color);
+  box-shadow: 0 0 0 0.25rem rgba(142, 35, 35, 0.25);
+}
+
+@media (max-width: 768px) {
+  .section-padding {
+    padding: 50px 0;
+  }
+  
+  .hero-section h1 {
+    font-size: 2.5rem;
+  }
+}
+
+.custom-wedding-select:focus {
+  border-color: #8e2323 !important;
+  box-shadow: 0 0 0 0.25rem rgba(142, 35, 35, 0.25) !important;
+  outline: none;
+}
+
+.custom-wedding-select option {
+  background-color: #f8f1e5;
+  color: #2a2118;
+}
+
+.custom-wedding-select option:hover {
+  background-color: #b78727 !important;
+  color: #fff !important;
+}
+
+.custom-wedding-select option:checked {
+  background-color: #8e2323 !important;
+  color: #fff !important;
+}
+
+.custom-wedding-select:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 #2a2118;
+}

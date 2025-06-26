@@ -1,0 +1,43 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Tiro+Tamil&display=swap'); */
+
+:root {
+  --primary-color: #b78727;
+  --secondary-color: #8e2323;
+  --accent-color: #4a7023;
+  --light-color: #f8f1e5;
+  --dark-color: #2a2118;
+  --text-color: #333;
+  --text-light: #f8f8f8;
+}
+
+body {
+  font-family: 'Poppins', 'Arial', sans-serif;
+  color: var(--text-color);
+  background-color: var(--light-color);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Tiro+Tamil&display=swap');
+
+h1, h2, h3, h4 {
+  font-family: 'Tiro Tamil', serif;
+  color: var(--secondary-color);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--light-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary-color);
+}
