@@ -39,7 +39,7 @@ const Footer = () => {
       </div>
 
       <Container>
-        <Row className="g-4 position-relative">
+        {/* <Row className="g-4 position-relative">
           <Col md={4} className="text-center text-md-start">
             <div className="d-flex flex-column align-items-center align-items-md-start">
               <h4 className="mb-3" style={{ color: '#b78727' }}>Tharshan & Thivya</h4>
@@ -124,9 +124,24 @@ const Footer = () => {
             </div>
         </div>
         </Col>
+        </Row> */}
+
+        <Row className="justify-content-center text-center">
+          <Col xs="auto">
+            <div className="d-flex flex-column align-items-center">
+              <h4 className="mb-3" style={{ color: '#b78727' }}>Tharshan & Thivya</h4>
+              <div className="mb-3">
+                <TraditionalMotif type="peacock" size="md" color="#8e2323" />
+              </div>
+              <p className="mb-0" style={{ maxWidth: '400px' }}>
+                எங்கள் திருமணத்தில் பங்கேற்றமைக்கு நன்றி
+              </p>
+            </div>
+          </Col>
         </Row>
+
         
-        <Row className="mt-5 position-relative">
+        {/* <Row className="mt-5 position-relative">
           <Col className="text-center">
             <div className="position-relative mb-3">
               <div style={{ 
@@ -140,7 +155,7 @@ const Footer = () => {
               &copy; {new Date().getFullYear()} Tharshan & Thivya திருமணம். அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.
             </p>
           </Col>
-        </Row>
+        </Row> */}
       </Container>
     </footer>
   )

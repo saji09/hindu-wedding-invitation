@@ -257,7 +257,7 @@ const RSVP = () => {
                         </Form.Select>
                   </Form.Group>
 
-                  <Form.Group className="mb-4">
+                  {/* <Form.Group className="mb-4">
                     <Form.Label style={{ color: "#4a7023", fontWeight: "500" }}>
                       நீங்கள் வருகை தருகிறீர்களா? *
                     </Form.Label>
@@ -305,9 +305,9 @@ const RSVP = () => {
                         </div>
                       ))}
                     </div>
-                  </Form.Group>
+                  </Form.Group> */}
 
-                  <Form.Group className="mb-4">
+                  {/* <Form.Group className="mb-4">
                     <Form.Label style={{ color: "#4a7023", fontWeight: "500" }}>
                       செய்தி (விரும்பினால்)
                     </Form.Label>
@@ -323,7 +323,7 @@ const RSVP = () => {
                         padding: "10px 15px",
                       }}
                     />
-                  </Form.Group>
+                  </Form.Group> */}
 
                   <div className="position-relative mt-4">
                     <div
