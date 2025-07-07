@@ -12,13 +12,11 @@ const Hero = () => {
       background: 'linear-gradient(rgba(248, 241, 229, 0.8), rgba(248, 241, 229, 0.6)), url("../assets/images/hero-bg.jpg") no-repeat center center',
       backgroundSize: 'cover'
     }}>
-      {/* Dark overlay for better text contrast */}
       <div className="position-absolute w-100 h-100" style={{
         backgroundColor: 'rgba(42, 33, 24, 0.2)',
         zIndex: 0
       }}></div>
 
-      {/* Floating decorative elements */}
       <div className="position-absolute w-100 h-100" style={{
         zIndex: 1,
         overflow: 'hidden'
@@ -49,7 +47,6 @@ const Hero = () => {
       <Container className="position-relative z-2 py-5">
         <Row className="align-items-center justify-content-center py-5">
           <Col md={10} lg={8} className="text-center">
-            {/* Couple Names with Animation */}
             <div className="position-relative mb-5" style={{ perspective: '1000px' }}>
               <h1 className="display-2 fw-bold mb-4" style={{
                 color: '#8e2323',
