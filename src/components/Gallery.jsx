@@ -19,7 +19,7 @@ const Gallery = () => {
       title: "வரவேற்பு அட்டை", 
       subTitle: "Invitation",
       img: "/assets/images/invitation.jpg",
-      date: "டிசம்பர் 1, 2023",
+      date: "டிசம்பர் 25, 2025",
       description: "பாரம்பரிய தமிழ் வடிவமைப்பில் எங்கள் திருமண அட்டை"
     }
   ]
