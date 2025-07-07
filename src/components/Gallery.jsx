@@ -9,8 +9,9 @@ const Gallery = () => {
       id: 1, 
       title: "நிச்சயதார்த்தம்", 
       subTitle: "Engagement",
-      img: "/assets/images/engagement.jpg",
-      date: "டிசம்பர் 1, 2025",
+      //img: "/assets/images/engagement.jpg",
+      img: "/assets/images/9a5ad7a2-1648-48d1-be31-643ee3a72213.jpeg",
+      date: "ஆகஸ்ட் 12, 2023",
       description: "எங்கள் அன்பான நிச்சயதார்த்த தருணம்"
     },
     { 
